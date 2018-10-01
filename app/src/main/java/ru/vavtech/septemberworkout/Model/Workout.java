@@ -1,6 +1,8 @@
 package ru.vavtech.septemberworkout.Model;
 
+import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.Locale;
 
 public class Workout {
 
@@ -21,6 +23,10 @@ public class Workout {
         this.recordRepsCount = recordRepsCount;
         this.recordDate = recordDate;
         this.recordWeight = recordWeight;
+    }
+
+    public String getFormattedRecordDate(){
+        return new SimpleDateFormat("dd MMMM yyyy", Locale.ROOT).format(recordDate);
     }
 
     public String getTitle() {
