@@ -1,7 +1,9 @@
-package ru.vavtech.septemberworkout;
+package ru.vavtech.septemberworkout.activities;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import ru.vavtech.septemberworkout.R;
 
 public class MainActivity extends AppCompatActivity {
 
